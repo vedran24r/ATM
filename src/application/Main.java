@@ -32,10 +32,17 @@ public class Main extends Application {
 			ResultSet rs = stmt.executeQuery("SELECT * FROM Korisnik");
 			rs.next();
 			System.out.println(rs.getString("prezime"));
+			Korisnik Vedran = new Korisnik("2312997999999");
+			Vedran.setIme(rs.getString("ime"));
+			System.out.println("vedran.ime = "+Vedran.getIme());
+			JdbcMsSql.connObj.close();
 			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
+		
+		
+		
 	}
 	
 	public static void main(String[] args) {
