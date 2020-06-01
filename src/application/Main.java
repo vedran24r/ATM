@@ -62,7 +62,10 @@ public class Main extends Application {
 		}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			
+=======
+>>>>>>> parent of b490863... asd
 =======
 >>>>>>> parent of b490863... asd
 =======
