@@ -16,7 +16,6 @@ public class JdbcMsSql {
             sqlException.printStackTrace();
         }
     }
-    
  
     public static void main(String[] args) {
         getDbConnection();
