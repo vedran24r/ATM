@@ -61,7 +61,10 @@ public class Main extends Application {
 			e.printStackTrace();
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 			
+=======
+>>>>>>> parent of b490863... asd
 =======
 >>>>>>> parent of b490863... asd
 	}
