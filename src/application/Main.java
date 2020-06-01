@@ -1,5 +1,6 @@
 package application;
 	
+<<<<<<< HEAD
 
 
 import java.io.FileInputStream;
@@ -9,6 +10,8 @@ import java.sql.Statement;
 
 import com.jcg.jdbc.mssql.JdbcMsSql;
 
+=======
+>>>>>>> parent of ff8bd24... povezao bazu
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
@@ -18,13 +21,15 @@ import javafx.scene.layout.BorderPane;
 
 
 public class Main extends Application {
+<<<<<<< HEAD
 	
 	private Stage primaryStage;
     private BorderPane rootLayout;
 	
+=======
+>>>>>>> parent of ff8bd24... povezao bazu
 	@Override
 	public void start(Stage primaryStage) {
-		
 		try {
 		    
 			//AnchorPane rootLayout = new AnchorPane();
@@ -38,6 +43,7 @@ public class Main extends Application {
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
 			primaryStage.show();
+<<<<<<< HEAD
 			primaryStage.setTitle("ATM");
 			System.out.println(System.getProperties());
 			
@@ -49,6 +55,8 @@ public class Main extends Application {
 			rs.next();
 			System.out.println(rs.getString("prezime"));
 			
+=======
+>>>>>>> parent of ff8bd24... povezao bazu
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
